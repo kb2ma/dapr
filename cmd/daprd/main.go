@@ -120,7 +120,7 @@ import (
 	"github.com/dapr/components-contrib/middleware/http/oauth2clientcredentials"
 	"github.com/dapr/components-contrib/middleware/http/opa"
 	"github.com/dapr/components-contrib/middleware/http/ratelimit"
-	"github.com/dapr/components-contrib/middleware/http/sentinel"
+	//"github.com/dapr/components-contrib/middleware/http/sentinel"
 	http_middleware_loader "github.com/dapr/dapr/pkg/components/middleware/http"
 	http_middleware "github.com/dapr/dapr/pkg/middleware/http"
 	"github.com/valyala/fasthttp"
@@ -446,10 +446,10 @@ func main() {
 				handler, _ := opa.NewMiddleware(log).GetHandler(metadata)
 				return handler
 			}),
-			http_middleware_loader.New("sentinel", func(metadata middleware.Metadata) http_middleware.Middleware {
-				handler, _ := sentinel.NewMiddleware(log).GetHandler(metadata)
-				return handler
-			}),
+			//http_middleware_loader.New("sentinel", func(metadata middleware.Metadata) http_middleware.Middleware {
+			//	handler, _ := sentinel.NewMiddleware(log).GetHandler(metadata)
+			//	return handler
+			//}),
 		),
 	)
 	if err != nil {
