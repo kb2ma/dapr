@@ -731,6 +731,8 @@ github.com/kataras/go-errors v0.0.3 h1:RQSGEb5AHjsGbwhNW8mFC7a9JrgoCLHC8CBQ4keXJ
 github.com/kataras/go-errors v0.0.3/go.mod h1:K3ncz8UzwI3bpuksXt5tQLmrRlgxfv+52ARvAu1+I+o=
 github.com/kataras/go-serializer v0.0.4 h1:isugggrY3DSac67duzQ/tn31mGAUtYqNpE2ob6Xt/SY=
 github.com/kataras/go-serializer v0.0.4/go.mod h1:/EyLBhXKQOJ12dZwpUZZje3lGy+3wnvG7QKaVJtm/no=
+github.com/kb2ma/sentinel-golang v1.0.3-0.20210719234829-ac90d74817db h1:uj0iC9uK6mZTHsOfWrTFf92HGegtei5wu4+m7sJU820=
+github.com/kb2ma/sentinel-golang v1.0.3-0.20210719234829-ac90d74817db/go.mod h1:QsB99f/z35D2AiMrAWwgWE85kDTkBUIkcmPrRt+61NI=
 github.com/keighl/postmark v0.0.0-20190821160221-28358b1a94e3 h1:J/fzo/5aWuJBtoi82KCJH4jnNYmVlnaIQC9nFI8KMeU=
 github.com/keighl/postmark v0.0.0-20190821160221-28358b1a94e3/go.mod h1:Pz+php+2qQ4fWYwCa5O/rcnovTT2ylkKg3OnMLuFUbg=
 github.com/kelseyhightower/envconfig v1.4.0 h1:Im6hONhd3pLkfDFsbRgu68RDNkGF1r3dvMUtDTo2cv8=

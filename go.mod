@@ -58,3 +58,5 @@ replace (
 	gopkg.in/couchbaselabs/gocbconnstr.v1 => github.com/couchbaselabs/gocbconnstr v1.0.5
 	k8s.io/client => github.com/kubernetes-client/go v0.0.0-20190928040339-c757968c4c36
 )
+
+replace github.com/alibaba/sentinel-golang v1.0.2 => github.com/kb2ma/sentinel-golang v1.0.3-0.20210719234829-ac90d74817db
